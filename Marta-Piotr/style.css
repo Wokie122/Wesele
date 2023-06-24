@@ -1,0 +1,280 @@
+body {
+  background-image: url("img/denim.webp");
+  width: 100%;
+}
+
+#conteiner {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#heading {
+  background-color: rgb(255, 255, 255);
+  padding: 7px;
+  color: white;
+  word-spacing: 2px;
+}
+
+#title {
+  background-color: rgb(255, 255, 255);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+#logo {
+  font-family: "Great Vibes", cursive;
+  font-size: 50px;
+  text-align: center;
+  float: left;
+  color: rgb(45, 40, 41);
+  padding-top: 10px;
+  width: 1200px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#navbar {
+  text-align: right;
+  font-family: "Tangerine", cursive;
+  float: left;
+  width: 790px;
+  font-size: 45px;
+  padding: 5px;
+  margin-top: 15px;
+}
+
+#slides {
+  background-color: white;
+  text-align: center;
+  padding-top: 5px;
+}
+
+#photo {
+  width: 590px;
+  height: 400px;
+}
+
+#invitation {
+  background-color: #ffffff;
+}
+
+.div-title {
+  font-family: "Tangerine", cursive;
+  font-size: 65px;
+  color: rgb(45, 40, 41);
+  text-align: center;
+  padding: 0px;
+}
+
+#div-photo-invitation {
+  float: left;
+  width: 590px;
+}
+
+#photo-invitation {
+  width: 575px;
+  margin: 10px 10px 5px 10px;
+}
+
+#photo-Marta-Piotr {
+  width: 575px;
+  height: 400px;
+  margin: 10px 10px 5px 10px;
+}
+
+.description-invitation {
+  margin-top: 0;
+  float: left;
+  margin-left: 5px;
+  width: 595px;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.description-guest-book {
+  margin-top: 60px;
+  float: left;
+  margin-left: 5px;
+  width: 590px;
+  font-size: 23px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.description-hotel-room {
+  margin-top: 30px;
+  text-align: center;
+  margin-left: 200px;
+  width: 800px;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+#guest-book {
+  background-color: white;
+  margin-bottom: 0;
+}
+
+#hotel-room {
+  background-color: #f0f1f5;
+  margin-bottom: 5px;
+  padding-bottom: 35px;
+}
+
+#div-photo-guest-book {
+  float: left;
+  width: 600px;
+}
+
+#photo-guest-book {
+  width: 600px;
+}
+
+#maps {
+  background-color: white;
+}
+
+#div-hall-city {
+  margin-bottom: 5px;
+  background-color: #d4a2a2;
+  width: 450px;
+  height: 570px;
+  float: left;
+}
+
+#hall-city {
+  padding-top: 150px;
+  padding-left: 50px;
+  font-family: "Montserrat", sans-serif;
+}
+
+#hall-city a {
+  color: white;
+  padding-left: 65px;
+}
+
+#div-romeo {
+  margin-bottom: 5px;
+  background-color: #e8c0ba;
+  width: 450px;
+  height: 570px;
+  float: left;
+}
+
+#romeo {
+  padding-top: 180px;
+  padding-left: 50px;
+  font-family: "Montserrat", sans-serif;
+}
+
+#romeo a {
+  color: white;
+  padding-left: 65px;
+}
+
+#romeo p {
+  color: white;
+  padding-left: 65px;
+}
+
+#div-hotel {
+  margin-bottom: 5px;
+  background-color: #eab7ad;
+  width: 550px;
+  height: 470px;
+  float: left;
+}
+
+#hotel {
+  padding-top: 180px;
+  padding-left: 70px;
+  font-family: "Montserrat", sans-serif;
+}
+
+#hotel a {
+  color: white;
+  padding-left: 65px;
+}
+
+.adres {
+  font-family: "Tangerine", cursive;
+  font-size: 35px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  margin-top: 40px;
+  padding: 0px;
+}
+
+#div-map {
+  margin-bottom: 5px;
+  float: left;
+  width: 750px;
+  height: 570px;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+#g-map {
+  padding-top: 10px;
+}
+
+#contact {
+  background-color: #f0f1f5;
+}
+
+#contact-marta {
+  width: 32.5%;
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  text-align: center;
+  float: left;
+  background-color: hsl(358, 28%, 83%);
+  margin: 5px;
+  color: white;
+}
+
+#contact-piotr {
+  width: 32.5%;
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  text-align: center;
+  float: left;
+  background-color: #d7b5b5;
+  margin: 5px;
+  color: white;
+}
+
+#contact-lukasz {
+  width: 32.5%;
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  text-align: center;
+  float: left;
+  background-color: #d4a2a2;
+  margin: 5px;
+  color: white;
+}
+
+.fb {
+  margin-top: 5px;
+  width: 384px;
+  float: left;
+  background-color: #525d9b;
+}
+
+#footer {
+  margin-top: 10px;
+  background-color: rgb(252, 252, 252);
+  color: rgb(0, 0, 0);
+  padding: 5px;
+  text-align: center;
+  font-size: 10px;
+}
+
+@media screen and (min-width: 1200px) {
+}

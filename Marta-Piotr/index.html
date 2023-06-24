@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="utf-8" />
+    <title>Wesele</title>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link rel="stylesheet" href="css/fontello.css" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&family=Tangerine&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Inconsolata:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div id="conteiner">
+      <div id="heading"></div>
+
+      <div id="title">
+        <div id="logo">
+          <a style="margin-left: 15px" href="#heading"
+            >Dziękujemy za potwierdzenie przybycia!</a
+          >
+        </div>
+        <div style="clear: both"></div>
+      </div>
+
+      <div id="contact">
+        <div id="contact-marta">
+          <div>
+            <i class="icon-phone"></i>
+            <a href="tel:+48792940525">Marta - 792 940 525</a>
+          </div>
+        </div>
+        <div id="contact-piotr">
+          <div>
+            <i class="icon-phone"></i>
+            <a href="tel:+48666247591">Piotr - 666 247 591</a>
+          </div>
+        </div>
+
+        <div id="contact-lukasz">
+          <div>
+            <i class="icon-phone"></i
+            ><a href="tel:+48888248555">Świadek - 888 248 555</a>
+          </div>
+        </div>
+        <div style="clear: both"></div>
+      </div>
+
+      <div id="slides">
+        <img id="photo-Marta-Piotr" src="img/Marta_Piotr.png" />
+
+        <img id="photo" src="img/Zdjecie1.jpg" alt="Zdjęcie 1" />
+
+        <img id="photo-invitation" src="img/Data_miejsce.png" />
+        <img id="photo-invitation" src="img/Kwiaty_wino.png" />
+        <script>
+          var photo = [
+            "img/Zdjecie1.jpg",
+            "img/Zdjecie2.jpg",
+            "img/Zdjecie3.jpg",
+            "img/Zdjecie4.jpg",
+          ];
+          var index = 0;
+
+          function zmienZdjecie() {
+            index++;
+            if (index >= photo.length) {
+              index = 0;
+            }
+            document.getElementById("photo").src = photo[index];
+          }
+
+          setInterval(zmienZdjecie, 3000);
+        </script>
+      </div>
+
+      <div id="guest-book">
+        <div id="div-photo-guest-book">
+          <img id="photo-guest-book" src="img/Ksiega_gosci.png" />
+        </div>
+        <div class="description-guest-book">
+          <p><em>Księga Gości</em></p>
+          <p>
+            <em
+              >Chcielibyśmy zaprosić Was do wpisania się do naszej Księgi Gości.
+              Możecie tam zostawić swoje słowa, życzenia, rady i
+              wspomnienia.</em
+            >
+          </p>
+          <p><em>Księga Gości znajduje się koło barmana.</em></p>
+          <p><em>Dziękujemy!</em></p>
+        </div>
+        <div style="clear: both"></div>
+      </div>
+
+      <div id="maps">
+        <div class="div-title">Mapy</div>
+      </div>
+
+      <div id="div-hall-city">
+        <div id="hall-city">
+          <a class="div-title">Urzad Stanu Cywilnego w Szczyrku</a>
+        </div>
+        <div class="adres">
+          Beskidzka 4,<br />
+          43-370 - Szczyrk
+        </div>
+      </div>
+
+      <div id="div-map">
+        <div id="g-map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d778.1276808864317!2d19.02290896492217!3d49.71503708879244!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471421a58059b5b1%3A0x1ccd6454a8af3b01!2sUrz%C4%85d%20Miasta!5e0!3m2!1spl!2spl!4v1687267923478!5m2!1spl!2spl"
+            width="730"
+            height="550"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+
+      <div id="div-romeo">
+        <div id="romeo">
+          <a class="div-title"
+            >Sale Weselne <br />&nbsp;&nbsp;&nbsp;&nbsp;Romeo i Julia</a
+          >
+        </div>
+        <div class="adres">
+          Mysliwska 1,<br />
+          43-370 - Szczyrk
+        </div>
+      </div>
+
+      <div id="div-map">
+        <div id="g-map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2579.7948311586306!2d19.02084287794559!3d49.71466417146094!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471421a59e0384fd%3A0x23617f52f049f540!2sSale%20Weselne%20Romeo%20i%20Julia%2C%20Venecia%20i%20Verona!5e0!3m2!1spl!2spl!4v1687279586967!5m2!1spl!2spl"
+            width="730"
+            height="550"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+
+      <div id="footer">Slub Marty i Piotra</div>
+    </div>
+  </body>
+</html>
